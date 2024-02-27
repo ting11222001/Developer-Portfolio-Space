@@ -44,6 +44,7 @@ const Contact = () => {
         },
         (error) => {
           setError(true);
+          console.log(error);
         },
       );
   };
