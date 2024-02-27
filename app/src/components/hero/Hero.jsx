@@ -51,11 +51,11 @@ const Hero = () => {
             Anna Watson
           </motion.h2>
           <motion.h1 variants={textVariants}>
-            UI/UX designer
+            UI/UX Design Studio
           </motion.h1>
           <div className="buttons">
             <motion.button variants={textVariants}>See the latest works</motion.button>
-            <motion.button variants={textVariants}>Contact me</motion.button>
+            <motion.button variants={textVariants}>Contact us</motion.button>
           </div>
           <motion.img
             src="/scroll.png"
