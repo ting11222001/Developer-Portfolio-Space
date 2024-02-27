@@ -24,6 +24,14 @@
       @include mobile {
         display: none;
       }
+
+      @include tablet {
+        margin-left: 100px;
+      }
+
+      @include desktop {
+        margin-left: 200px;
+      }
     }
 
     .social {
@@ -33,6 +41,14 @@
       img {
         width: 18px;
         height: 18px;
+      }
+
+      @include tablet {
+        margin-right: 100px;
+      }
+
+      @include desktop {
+        margin-right: 200px;
       }
     }
   }
