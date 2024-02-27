@@ -1,6 +1,7 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
+import emailjs from '@emailjs/browser';
 
 const variants = {
   initial: {
@@ -24,6 +25,28 @@ const Contact = () => {
     ref,
     { margin: "-100px" }
   );
+
+  // use emailjs to send form message to my gmail
+  const formRef = useRef();
+  const [error, setError] = useState(false);
+  const [success, setSuccess] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_suxhu6e', 'template_xsq12mr', formRef.current, {
+        publicKey: 'TdXLKd_GIn0xVBS5e',
+      })
+      .then(
+        () => {
+          setSuccess(true);
+        },
+        (error) => {
+          setError(true);
+        },
+      );
+  };
 
   return (
     <motion.div
@@ -99,23 +122,29 @@ const Contact = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 3, duration: 1 }}
+          ref={formRef}
+          onSubmit={sendEmail}
         >
-          <motion.input
+          <input
             type="text"
             placeholder="Name"
             required
+            name="name"
           />
-          <motion.input
+          <input
             type="email"
             placeholder="Email"
             required
+            name="email"
           />
-          <motion.textarea
-            name=""
+          <textarea
             placeholder="Message"
             rows={8}
+            name="message"
           />
-          <motion.button>Submit</motion.button>
+          <button>Submit</button>
+          {error && "Error"}
+          {success && "Success"}
         </motion.form>
       </div>
     </motion.div >
