@@ -14,18 +14,21 @@
     // background-color: rebeccapurple;
 
     span {
-      font-weight: bold;
-      margin-left: 100px;
+      font-weight: bold;      
 
       @include mobile {
-        margin-right: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+      }
+
+      @include tablet {
+        margin-left: 100px;
       }
     }
 
     .social {
       display: flex;
       gap: 20px;
-      margin-right: 20px;
 
       img {
         width: 18px;
