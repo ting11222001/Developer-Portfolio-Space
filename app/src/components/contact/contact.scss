@@ -7,12 +7,13 @@
   display: flex;
   align-items: center;
   gap: 50px;
-
+  // background-color: rebeccapurple;
+  
   @include mobile {
-      width: 100%;
-      padding: 10px;
-      flex-direction: column;
-    }
+    overflow: auto;
+    width: 100%;
+    flex-direction: column;
+  }
 
 
   .textContainer {
@@ -21,7 +22,7 @@
     flex-direction: column;
     gap: 40px;
 
-     @include mobile {
+    @include mobile {
       gap: 20px;
       text-align: center;
       align-items: center;
@@ -32,9 +33,9 @@
       font-size: 100px;
       line-height: 88px;
 
-       @include mobile {
-      font-size: 36px;
-    }
+      @include mobile {
+        font-size: 36px;
+      }
     }
 
     span {
@@ -45,11 +46,12 @@
   .formContainer {
     flex: 1;
     position: relative;
-    
+    // background-color: aqua;
+
     @include mobile {
       padding: 50px;
       width: 100%;
-       }
+    }
 
     .phoneSvg {
       // background-color: rebeccapurple;
@@ -58,18 +60,19 @@
       margin: auto;
       z-index: -1;
     }
-    
+
     form {
       display: flex;
       flex-direction: column;
       gap: 20px;
-      
-      input, textarea {
+
+      input,
+      textarea {
         padding: 20px;
         background-color: transparent;
         border: 1px solid white;
         color: white;
-        
+
       }
 
       button {
@@ -79,9 +82,9 @@
         cursor: pointer;
         font-weight: 500;
 
-         @include mobile {
-      padding: 10px;
-    }
+        @include mobile {
+          padding: 10px;
+        }
       }
     }
   }
