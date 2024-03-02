@@ -88,6 +88,7 @@
         background-color: orange;
         cursor: pointer;
         font-weight: 500;
+        color: black;
 
         @include mobile {
           padding: 10px;
