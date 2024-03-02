@@ -54,8 +54,8 @@ const Hero = () => {
             UI/UX Design Studio
           </motion.h1>
           <div className="buttons">
-            <motion.button variants={textVariants}>See the latest works</motion.button>
-            <motion.button variants={textVariants}>Contact us</motion.button>
+            <motion.a variants={textVariants} href="#Portfolio">See the latest works</motion.a>
+            <motion.a variants={textVariants} href="#Contact">Contact us</motion.a>
           </div>
           <motion.img
             src="/scroll.png"
