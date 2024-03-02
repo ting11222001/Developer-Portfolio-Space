@@ -131,7 +131,6 @@
         @include mobile {
           font-size: 20px;
         }
-
       }
 
       @include mobile {
@@ -152,6 +151,7 @@
         background-color: orange;
         border: none;
         cursor: pointer;
+        color: black;
 
         @include mobile {
           background-color: transparent;
