@@ -7,6 +7,10 @@
   flex-direction: column;
   justify-content: space-between;
 
+  @include mobile {
+    overflow: auto;
+  }
+
   .textContainer {
     flex: 1;
     align-self: flex-end;
@@ -18,6 +22,8 @@
       flex: 1;
       align-self: center;
       text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;      
     }
 
     hr {
@@ -58,6 +64,7 @@
       @include mobile {
         flex-direction: column;
         text-align: center;
+        gap: 20px;
       }
 
       img {
@@ -69,6 +76,7 @@
         @include mobile {
           width: 200px;
           height: 50px;
+          padding-top: 20px;
         }
 
       }

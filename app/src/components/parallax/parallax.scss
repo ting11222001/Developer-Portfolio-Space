@@ -17,36 +17,39 @@
     @include mobile {
       font-size: 32px;
       text-align: center;
-      z-index: 999;
+      z-index: 899;
     }
   }
 
   .mountains {
     width: 100vw;
+    height: 100vh;
     z-index: 3;
 
     img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
     }
   }
 
   .planets {
     position: absolute;
     width: 100vw;
+    height: 100vh;
     z-index: 2;
 
     img {
       height: 100%;
-    width: 100%;
-    object-fit: cover;
+      width: 100%;
+      object-fit: cover;
     }
   }
 
   .stars {
     position: absolute;
     width: 100vw;
+    height: 100vh;
     z-index: 1;
   }
 
