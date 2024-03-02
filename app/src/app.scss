@@ -27,6 +27,12 @@ section {
   overflow: hidden;
 }
 
+@supports (-webkit-overflow-scrolling: touch) {
+  input {
+    font-size: 16px;
+  }
+}
+
 
 @mixin mobile {
   @media (max-width: 738px) {
