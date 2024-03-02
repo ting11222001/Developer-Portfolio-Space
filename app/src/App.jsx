@@ -13,7 +13,7 @@ function App() {
     <div>
       <Cursor />
 
-      <section id="HomePage">
+      <section id="Home">
         <Navbar />
         <Hero />
       </section>
