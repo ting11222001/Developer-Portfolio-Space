@@ -65,7 +65,7 @@ This will start the development server, and you can access the website in your b
 
 ## Acknowledgements
 
-The design and animation techniques were inspired by tutorials from [Lama Dev](https://github.com/safak/animated-portfolio).
+The design and animation techniques were inspired [Lama Dev](https://github.com/safak/animated-portfolio).
 
 ## License
 
