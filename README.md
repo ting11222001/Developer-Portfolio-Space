@@ -6,7 +6,7 @@ This project is a showcase of a design studio website featuring sleek UI animati
 
 ## Demo
 
-Check out the live demo [here](#https://developer-portfolio-space.vercel.app/).
+Check out the live demo [here](https://developer-portfolio-space.vercel.app/).
 
 ## Table of Contents
 
@@ -15,6 +15,7 @@ Check out the live demo [here](#https://developer-portfolio-space.vercel.app/).
 - [Technologies](#technologies)
 - [Features](#features)
 - [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
 - [License](#license)
 
 ## Installation
@@ -47,7 +48,7 @@ After the installation, run the project using the following command:
 npm run dev
 ```
 
-This will start the development server, and you can access the website at [http://localhost:3000](http://localhost:3000) in your browser.
+This will start the development server, and you can access the website in your browser.
 
 ## Technologies
 
@@ -62,7 +63,6 @@ This will start the development server, and you can access the website at [http:
 - Interactive and engaging UI components
 - Contact form functionality using email.js
 - Responsive design for various screen sizes
-
 
 ## Acknowledgements
 
