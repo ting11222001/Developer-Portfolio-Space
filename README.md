@@ -14,7 +14,6 @@ Check out the live demo [here](https://developer-portfolio-space.vercel.app/).
 - [Usage](#usage)
 - [Technologies](#technologies)
 - [Features](#features)
-- [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
