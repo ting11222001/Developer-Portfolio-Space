@@ -15,7 +15,6 @@ Check out the live demo [here](https://developer-portfolio-space.vercel.app/).
 - [Technologies](#technologies)
 - [Features](#features)
 - [Acknowledgements](#acknowledgements)
-- [License](#license)
 
 ## Installation
 
@@ -66,9 +65,5 @@ This will start the development server, and you can access the website in your b
 ## Acknowledgements
 
 The design and animation techniques were inspired [Lama Dev](https://github.com/safak/animated-portfolio).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 Feel free to reach out with any questions or feedback!
