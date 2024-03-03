@@ -53,7 +53,7 @@ This will start the development server, and you can access the website in your b
 - React
 - Vite
 - Framer Motion
-- email.js library
+- [email.js](https://www.emailjs.com/)
 
 ## Features
 
